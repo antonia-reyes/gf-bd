@@ -1,0 +1,133 @@
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+p { text-align: center }
+h4 { text-align: center }
+h1 { text-align: center }
+.container { text-align: center; 
+            padding-top: 12px;
+            padding-right: 200px;
+            padding-bottom: 0px;
+            padding-left: 200px; }
+
+.content { text-align: center; 
+  padding-top: 12px;
+  padding-right: 200px;
+  padding-bottom: 0px;
+  padding-left: 200px; }
+
+  #timer{
+    text-align: center;
+    color: black;
+  }
+            
+#raiz {background-color: 	rgb(242,235,215);}
+#principal {background-color: 	rgb(155,201,158);
+            font-size: 24px;
+            padding: 12px 12px;
+            border: 1px solid #4CAF50;
+            display:inline-block; }
+
+
+#principal:hover {
+    background-color: rgba(3, 160, 131, 0.555); /* Green */
+    color: white;
+  }
+
+#monito {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    color: white;
+    text-align: center;
+  }
+
+
+  .song-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.song {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.song:hover {
+    transform: scale(1.05);
+}
+
+.song img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.song h3 {
+  margin: 20px 0 10px;
+    font-size: 16px;
+}
+
+.song p {
+    margin: 0;
+    color: #888;
+}
+
+
