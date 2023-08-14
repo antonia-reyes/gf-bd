@@ -24,6 +24,9 @@ h1 { text-align: center }
   }
             
 #raiz {background-color: 	rgb(242,235,215);}
+
+#monitos {background-image: 	url(monitos.jpg);}
+
 #principal {background-color: 	rgb(155,201,158);
             font-size: 24px;
             padding: 12px 12px;
@@ -41,6 +44,15 @@ h1 { text-align: center }
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+  }
+
+  #monito2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: black;
+    border-style: solid;
   }
 
   img:hover {
