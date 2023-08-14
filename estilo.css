@@ -130,4 +130,57 @@ h1 { text-align: center }
     color: #888;
 }
 
+p.para1:first-letter {
+  font-size: 100px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 10px 0;
+}
+
+.letter-body {
+  font-size: 1rem;
+  width: 40%;
+  margin: auto;
+  font-family: 'Cormorant Infant', sans-serif;
+  font-weight: bold
+}
+
+.custom-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('wallpaper.jpg') no-repeat;
+  background-size: cover;
+}
+
+.container-grid {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-grid {
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
