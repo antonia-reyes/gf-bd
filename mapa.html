@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>te amo polola</title> 
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="raiz">
+    <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="canciones.html">canciones<3</a></li>
+        <li><a href="teamo.html">te amo mono</a></li>
+        <li><a href="tiempo.html">os<3</a></li>
+        <li><a href="mapa.html">mapa<3</a></li>
+    </ul>
+
+    <div class="content">
+
+        <div id="map"></div>
+
+        <!-- Google Maps JS API -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <!-- GMaps Library -->
+        <script src="gmaps.js"></script>
+
+        <script>
+            /* Map Object */
+            var mapObj = new GMaps({
+                el: '#map',
+                lat: -33.4356565,
+                lng: -70.6412692
+            });
+
+            var m = mapObj.addMarker({
+                lat: -33.4356565,
+                lng: -70.6412692,
+                title: 'Forestal <3',
+                infoWindow: {
+                    content: '<h4>Parque Forestal<3</h4><div>primera cita</div>',
+                    maxWidth: 100
+            }
+            });
+        </script>
+
+    </div>
+
+  </body>
+
+</html>

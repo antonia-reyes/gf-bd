@@ -186,6 +186,12 @@ p.para1:first-letter {
   text-align: center;
 }
 
+#map {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
 
 
 
